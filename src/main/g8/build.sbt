@@ -8,7 +8,7 @@ version := "$version$"
 
 scalaVersion := "$scala_version$"
 
-libraryDependencies += "com.github.jbrechtel" %% "robospecs" % "0.2-SNAPSHOT" % "test"
+// libraryDependencies += "com.github.jbrechtel" %% "robospecs" % "0.2-SNAPSHOT" % "test"
 
 seq(AndroidProject.androidSettings: _*)
 
